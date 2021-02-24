@@ -1,6 +1,6 @@
 // Arduino  私だけの電子オルゴール 減衰矩形波/減衰正弦波
 // 2020.4.21 koyama@hirosaki-u.ac.jp
-// 2021.2.24 esp32移植byでんたろう
+// 2021.2.24 esp32移植byでんたろう（２和音減衰正弦波のみ）
 #include "mymelo.h"
 #define  Nc  256
 #define BUFFER_LEN    (256)        // バッファサイズ
